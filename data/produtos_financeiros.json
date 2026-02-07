@@ -1,42 +1,136 @@
-[
-  {
-    "nome": "Tesouro Selic",
-    "categoria": "renda_fixa",
-    "risco": "baixo",
-    "rentabilidade": "100% da Selic",
-    "aporte_minimo": 30.00,
-    "indicado_para": "Reserva de emergência e iniciantes"
-  },
-  {
-    "nome": "CDB Liquidez Diária",
-    "categoria": "renda_fixa",
-    "risco": "baixo",
-    "rentabilidade": "102% do CDI",
-    "aporte_minimo": 100.00,
-    "indicado_para": "Quem busca segurança com rendimento diário"
-  },
-  {
-    "nome": "LCI/LCA",
-    "categoria": "renda_fixa",
-    "risco": "baixo",
-    "rentabilidade": "95% do CDI",
-    "aporte_minimo": 1000.00,
-    "indicado_para": "Quem pode esperar 90 dias (isento de IR)"
-  },
-  {
-    "nome": "Fundo Multimercado",
-    "categoria": "fundo",
-    "risco": "medio",
-    "rentabilidade": "CDI + 2%",
-    "aporte_minimo": 500.00,
-    "indicado_para": "Perfil moderado que busca diversificação"
-  },
-  {
-    "nome": "Fundo de Ações",
-    "categoria": "fundo",
-    "risco": "alto",
-    "rentabilidade": "Variável",
-    "aporte_minimo": 100.00,
-    "indicado_para": "Perfil arrojado com foco no longo prazo"
-  }
-]
+{
+  "produtos": [
+    {
+      "nome": "Kaito Guard - Auditoria Básica",
+      "categoria": "Segurança",
+      "risco": "baixo",
+      "rentabilidade": "N/A (Produto de Proteção)",
+      "aporte_minimo": 99.90,
+      "indicado_para": "Investidores iniciantes que desejam verificar segurança de contratos antes de investir",
+      "descricao": "Análise automatizada de contratos inteligentes para detectar vulnerabilidades comuns",
+      "prazo_minimo": "Imediato",
+      "tributacao": "Isento"
+    },
+    {
+      "nome": "Staking de Ethereum",
+      "categoria": "Staking",
+      "risco": "medio-baixo",
+      "rentabilidade": "3.5% a 5.2% aa",
+      "aporte_minimo": 32.00,
+      "indicado_para": "Investidores de perfil conservador que buscam renda passiva em ativo consolidado",
+      "descricao": "Validação de transações na rede Ethereum com recompensas em ETH",
+      "prazo_minimo": "Indeterminado (período de saque pode variar)",
+      "tributacao": "15% sobre ganhos (após venda)"
+    },
+    {
+      "nome": "Yield Farming USDC",
+      "categoria": "DeFi",
+      "risco": "medio",
+      "rentabilidade": "7.8% a 12.5% aa",
+      "aporte_minimo": 1000.00,
+      "indicado_para": "Investidores moderados com tolerância a risco smart contract",
+      "descricao": "Fornecimento de liquidez em pools de stablecoin em protocolos auditados",
+      "prazo_minimo": "90 dias",
+      "tributacao": "15% sobre ganhos (após resgate)"
+    },
+    {
+      "nome": "Bitcoin DCA Automatizado",
+      "categoria": "Acumulação",
+      "risco": "medio",
+      "rentabilidade": "Variável (exposição ao BTC)",
+      "aporte_minimo": 100.00,
+      "indicado_para": "Todos os perfis que desejam exposição gradual ao Bitcoin",
+      "descricao": "Compra automática periódica de Bitcoin (Dollar-Cost Averaging)",
+      "prazo_minimo": "12 meses recomendado",
+      "tributacao": "15% sobre ganhos (após venda acima de R$35.000/mês)"
+    },
+    {
+      "nome": "NFT Blue-Chip Staking",
+      "categoria": "NFT Finance",
+      "risco": "medio-alto",
+      "rentabilidade": "15% a 25% aa",
+      "aporte_minimo": 5000.00,
+      "indicado_para": "Investidores arrojados com conhecimento em NFTs colecionáveis",
+      "descricao": "Empréstimo de NFTs de coleções estabelecidas para empréstimos flash",
+      "prazo_minimo": "30 dias",
+      "tributacao": "15% sobre ganhos"
+    },
+    {
+      "nome": "Lending de Altcoins",
+      "categoria": "Empréstimos",
+      "risco": "alto",
+      "rentabilidade": "18% a 35% aa",
+      "aporte_minimo": 500.00,
+      "indicado_para": "Investidores experientes que entendem volatilidade de altcoins",
+      "descricao": "Empréstimo de criptomoedas alternativas com garantias overcollateralized",
+      "prazo_minimo": "14 dias",
+      "tributacao": "15% sobre ganhos"
+    },
+    {
+      "nome": "Index Token DeFi 10",
+      "categoria": "Fundos Tokenizados",
+      "risco": "medio",
+      "rentabilidade": "Indexada ao desempenho do setor DeFi",
+      "aporte_minimo": 250.00,
+      "indicado_para": "Investidores que desejam diversificação em DeFi sem escolher tokens individuais",
+      "descricao": "Token que replica cesta dos 10 maiores tokens DeFi por market cap",
+      "prazo_minimo": "180 dias",
+      "tributacao": "15% sobre ganhos"
+    },
+    {
+      "nome": "Liquidity Mining LP Tokens",
+      "categoria": "DeFi",
+      "risco": "alto",
+      "rentabilidade": "45% a 120% aa (APY variável)",
+      "aporte_minimo": 2000.00,
+      "indicado_para": "Investidores avançados que entendem impermanent loss e riscos de contrato",
+      "descricao": "Fornecimento de liquidez em pares de tokens com recompensas em tokens de governança",
+      "prazo_minimo": "90 dias",
+      "tributacao": "15% sobre ganhos"
+    },
+    {
+      "nome": "Reserva de Emergência em USDT",
+      "categoria": "Stablecoins",
+      "risco": "baixo",
+      "rentabilidade": "9.5% aa",
+      "aporte_minimo": 1000.00,
+      "indicado_para": "Quem busca rentabilidade em reserva de emergência (isento de IR após 90 dias)",
+      "descricao": "Alocação em stablecoin com yield em protocolos de empréstimo de baixo risco",
+      "prazo_minimo": "90 dias",
+      "tributacao": "Isento após 90 dias"
+    },
+    {
+      "nome": "Node Operator Ethereum",
+      "categoria": "Infraestrutura",
+      "risco": "medio-baixo",
+      "rentabilidade": "6.8% a 8.5% aa",
+      "aporte_minimo": 50000.00,
+      "indicado_para": "Investidores institucionais ou com alto capital para operação de nós",
+      "descricao": "Operação de nós validadores na rede Ethereum com recompensas de consenso",
+      "prazo_minimo": "Indeterminado",
+      "tributacao": "15% sobre ganhos"
+    },
+    {
+      "nome": "Fundo de Venture Crypto",
+      "categoria": "Venture Capital",
+      "risco": "muito-alto",
+      "rentabilidade": "Potencial ilimitado (alto risco)",
+      "aporte_minimo": 100000.00,
+      "indicado_para": "Acreditadores profissionais e investidores qualificados (acima de R$1M patrimônio)",
+      "descricao": "Investimento em early-stage de projetos blockchain e tokens pré-lançamento",
+      "prazo_minimo": "36 meses",
+      "tributacao": "20% sobre ganhos (carried interest)"
+    },
+    {
+      "nome": "Cover de Seguros DeFi",
+      "categoria": "Proteção",
+      "risco": "baixo",
+      "rentabilidade": "N/A (Produto de Proteção)",
+      "aporte_minimo": 500.00,
+      "indicado_para": "Qualquer investidor em DeFi que deseja proteção contra hacks e exploits",
+      "descricao": "Seguro contra perdas por vulnerabilidades em smart contracts e falhas de protocolo",
+      "prazo_minimo": "30 dias",
+      "tributacao": "Não tributável (prêmio de seguro)"
+    }
+  ]
+}
