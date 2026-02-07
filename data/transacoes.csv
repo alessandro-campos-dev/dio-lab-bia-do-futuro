@@ -1,11 +1,51 @@
 data,descricao,categoria,valor,tipo
-2025-10-01,Salário,receita,5000.00,entrada
-2025-10-02,Aluguel,moradia,1200.00,saida
-2025-10-03,Supermercado,alimentacao,450.00,saida
-2025-10-05,Netflix,lazer,55.90,saida
-2025-10-07,Farmácia,saude,89.00,saida
-2025-10-10,Restaurante,alimentacao,120.00,saida
-2025-10-12,Uber,transporte,45.00,saida
-2025-10-15,Conta de Luz,moradia,180.00,saida
-2025-10-20,Academia,saude,99.00,saida
-2025-10-25,Combustível,transporte,250.00,saida
+2024-03-15,Compra de Bitcoin (BTC),compra,2500.00,saida
+2024-03-15,Staking reward Ethereum,rendimento,85.30,entrada
+2024-03-14,Yield Farming USDC Pool,defi,1200.00,saida
+2024-03-14,Venda parcial Solana (SOL),venda,3200.50,entrada
+2024-03-13,Pagamento Kaito Guard Pro,assinatura,99.90,saida
+2024-03-13,Airdrop LayerZero (ZRO),airdrop,150.00,entrada
+2024-03-12,Fornecimento liquidez ETH/USDC,lp_provision,5000.00,saida
+2024-03-12,Rewards liquidity mining,defi_rewards,420.75,entrada
+2024-03-11,Compra Cardano (ADA),compra,800.00,saida
+2024-03-11,Staking rewards Cardano,staking,12.40,entrada
+2024-03-10,Empréstimo MAKER (DAI),lending,3000.00,saida
+2024-03-10,Juros empréstimo DAI,lending_interest,45.20,entrada
+2024-03-09,NFT Azuki #4521,nft,7500.00,saida
+2024-03-09,Royalties NFT vendido,royalties,375.00,entrada
+2024-03-08,Bot trading subscription,ferramentas,199.90,saida
+2024-03-08,Profit trading bot,trading,890.60,entrada
+2024-03-07,Compra Chainlink (LINK),compra,1200.00,saida
+2024-03-07,Airdrop Starknet (STRK),airdrop,280.00,entrada
+2024-03-06,Gas fee Ethereum,gastos,35.50,saida
+2024-03-06,Refund gas overpay,reembolso,12.30,entrada
+2024-03-05,IDO participation (GameFi),investimento,2000.00,saida
+2024-03-05,Token vesting release,vesting,1500.00,entrada
+2024-03-04,Bridge fee Polygon→Arbitrum,gastos,8.90,saida
+2024-03-04,Rewards bridge usage,recompensa,5.25,entrada
+2024-03-03,DeFi insurance cover,seguros,250.00,saida
+2024-03-03,Insurance claim payout,seguros,1800.00,entrada
+2024-03-02,Compra Polkadot (DOT),compra,950.00,saida
+2024-03-02,Parachain rewards,staking,18.75,entrada
+2024-03-01,Custody fee exchange,taxas,15.00,saida
+2024-03-01,Cashback exchange,cashback,30.00,entrada
+2024-02-29,Node operation costs,infraestrutura,420.00,saida
+2024-02-29,Node rewards,infraestrutura,650.80,entrada
+2024-02-28,DAO governance token,governanca,1800.00,saida
+2024-02-28,DAO voting rewards,governanca,120.50,entrada
+2024-02-27,Subscription analytics,ferramentas,89.90,saida
+2024-02-27,Referral program,referral,350.00,entrada
+2024-02-26,Buy stablecoin USDC,compra,5000.00,saida
+2024-02-26,Yield stablecoin pool,defi,42.30,entrada
+2024-02-25,Withdrawal fee exchange,taxas,10.00,saida
+2024-02-25,Fee waiver promotion,promocao,10.00,entrada
+2024-02-24,NFT minting fee,nft,120.00,saida
+2024-02-24,NFT secondary sale,nft,2200.00,entrada
+2024-02-23,OTC trade commission,taxas,300.00,saida
+2024-02-23,OTC trade profit,trading,4500.00,entrada
+2024-02-22,Hardware wallet,seguranca,299.00,saida
+2024-02-22,Bug bounty reward,recompensa,5000.00,entrada
+2024-02-21,Educational course,educacao,497.00,saida
+2024-02-21,Content creation reward,conteudo,1200.00,entrada
+2024-02-20,Transfer to cold wallet,transferencia,10000.00,saida
+2024-02-20,Transfer from savings,transferencia,5000.00,entrada
